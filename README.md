@@ -1,4 +1,4 @@
-# christine-audio
+# christine-bot-audio
  
 ## Activate virtual environment in Linux & Mac OS
 ``` bash
