@@ -18,6 +18,5 @@ $ pip install -r requirements.txt
 ## Running server
 
 ``` bash
-$ source bin/activate
 $ gunicorn wsgi:app
 ```
