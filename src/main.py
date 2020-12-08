@@ -6,6 +6,9 @@ from .utils.audio_recognizer import recognize_audio
 
 app = Flask(__name__)
 
+@app.route('/ping')
+def ping():
+    return "I'm alive";
 
 @app.route('/', methods=['POST'])
 def run():
